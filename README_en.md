@@ -9,7 +9,7 @@ boombox provides standardized API on audio-control to treat in simple way like a
 ### Why you should use boombox?
 
 
-There're `HTMLAudio`/`WebAudio`/`HTMLVideo` to play sounds in browsers.  However each of them has defferent way and defferent supporting browsers.
+There're `HTMLAudio`/`WebAudio`/`HTMLVideo` to play sounds in browsers.  However each of them has different way to control and different supporting browsers.
 
 `boombox` covers-up defference between above specifications and provides standardized API.
 Further more,  it provides smartphone-specific features such as stopping on browser's suspending and playing multiple sounds at the same time.
@@ -44,7 +44,7 @@ However, `boombox` doesn't prevent accessing original APIs so you can extend `bo
 - CORS Settings
     - You can configure [CORS](https://developer.mozilla.org/ja/docs/HTTP_access_control) by specifying appropriate options on crossOrigin, server location and loading.
 - Filterings
-    - Filtering to play different sounds for different environments
+    - Filtering to play different sounds for each environments
 
 ## Reference information
 
@@ -111,7 +111,7 @@ $ bower install boombox.js
 $ component install CyberAgent/boombox.js
 ```
 
-## Loadign
+## Loading
 
 Embed above files by `script` tag
 
